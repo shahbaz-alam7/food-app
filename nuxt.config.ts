@@ -46,4 +46,8 @@ export default defineNuxtConfig({
       Montserrat: true,
     },
   },
+   // Enables client-side rendering
+   nitro: {
+    preset: "vercel"
+  }
 });
